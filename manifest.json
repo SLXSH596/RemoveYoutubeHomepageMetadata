@@ -7,8 +7,9 @@
 
   "content_scripts": [
     {
+      "all_frames": true,
       "matches": ["*://*.youtube.com/*"],
-      "js": ["RemoveYoutubeMetadata.js"]
+      "css": ["RemoveYoutubeMetadata.css"]
     }
   ]
 }
