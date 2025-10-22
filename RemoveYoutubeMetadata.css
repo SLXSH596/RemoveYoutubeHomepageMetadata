@@ -8,3 +8,8 @@
 #details {
   display: none !important;
 }
+
+/* Resize video thumbnails to full width */
+.yt-lockup-view-model__content-image {
+  width: 100% !important;
+}
