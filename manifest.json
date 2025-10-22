@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "RemoveYoutubeHomepageMetadata",
+  "version": "1.0",
+
+  "description": "A Firefox extension to remove the metadata of YouTube videos on the homepage, just for fun.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["RemoveYoutubeHomepageMetadata.js"]
+    }
+  ]
+}
